@@ -1,0 +1,103 @@
+BODY
+{
+  BACKGROUND: #CCCCFF;
+  COLOR: #000080;
+  <!--
+  A:link {color: blue; } 
+  A:hover {color: fuchsia ; }
+  -->  
+}
+.maintext
+{
+  FONT-SIZE: 12pt;
+  FONT-FAMILY: Arial, Helvetica, sans-serif; 
+}
+
+.lowtext
+{
+  FONT-SIZE: 10pt;
+  FONT-FAMILY: Arial, Helvetica, sans-serif; 
+}
+
+.smalltext
+{
+  FONT-SIZE: 8pt;
+  FONT-FAMILY: Arial, Helvetica, sans-serif; 
+}
+
+.salute
+{
+  FONT-SIZE: 10pt;
+  font-weight: bold;
+  FONT-FAMILY: Arial, Helvetica, sans-serif; 
+}
+
+BODY.mashka
+{
+  BACKGROUND: #FFCCFF;
+}
+
+BODY.content
+{
+  BACKGROUND: #9999FF;
+}
+
+BODY.banner
+{
+  BACKGROUND: #AEAEFF;
+}
+
+A.muse_content:link,A.muse_content:visited, A.muse_content:active 
+{
+  font-size: 12pt;
+  font-weight: bold;
+  text-decoration: none;  
+  color: navy;
+}
+
+A.muse_content:hover
+{
+  font-size: 12pt;
+  font-weight: bold;
+  text-decoration: none;  
+  color: blue;
+}
+
+P.muse_subcontent A:link, P.muse_subcontent A:visited, P.muse_subcontent A:active
+{
+  font-size: 12pt;
+  font-weight: normal;
+  text-decoration: none;  
+  color: navy;
+}
+
+P.muse_subcontent A:hover
+{
+  font-size: 12pt;
+  font-weight: normal;
+  text-decoration: none;  
+  color: blue;
+}
+
+UL.muse_subcontent A:link, UL.muse_subcontent A:visited, UL.muse_subcontent A:active
+{
+  font-size: 12pt;
+  font-weight: normal;
+  text-decoration: none;  
+  color: navy;
+}
+
+UL.muse_subcontent A:hover
+{
+  font-size: 12pt;
+  font-weight: normal;
+  text-decoration: none;  
+  color: blue;
+}
+
+A.none:link,A.none:visited, A.none:active, A.none:hover
+{
+  text-decoration: none;  
+  color: blue;
+
+}
